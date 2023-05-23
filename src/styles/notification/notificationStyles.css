@@ -1,0 +1,77 @@
+.notification {
+  width: 95%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.notification .user-icon {
+  height: 100%;
+  width: 15%;
+}
+.notification .user-icon #icon {
+  width: 50px;
+  height: 50px;
+  padding: 10px 5px 0px 5px;
+}
+.notification .info {
+  text-align: left;
+  line-height: 1;
+  width: 75%;
+  height: 100%;
+}
+.notification .info .private-message {
+  border: 3px solid hsl(205, 33%, 90%);
+  border-radius: 5px;
+  padding: 10px;
+  width: 80%;
+}
+.notification .info .name {
+  font-weight: 800;
+  color: hsl(224, 21%, 14%);
+}
+.notification .info .specific {
+  font-weight: 800;
+  color: hsl(219, 85%, 26%);
+}
+.notification .info .dot {
+  height: 8px;
+  width: 8px;
+  background-color: hsl(1, 90%, 64%);
+  border-radius: 50%;
+  display: inline-block;
+}
+.notification .info .description {
+  padding-bottom: 5px;
+  margin-bottom: 0;
+}
+.notification .info .time {
+  padding-top: 0;
+  margin-top: 0;
+  color: hsl(219, 14%, 63%);
+  font-size: 13px;
+}
+.notification #picture {
+  height: 100%;
+  width: 10%;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.notification #picture #post-picture {
+  height: 60px;
+  padding: 5px 10px 0px 0px;
+}
+@media (max-width: 520px) {
+  .notification .user-icon #icon {
+    width: 40px;
+    height: 40px;
+  }
+  .notification .info {
+    padding-left: 10px;
+  }
+  .notification #picture #post-picture {
+    padding: 25% 10px 0px 5px;
+  }
+}/*# sourceMappingURL=notificationStyles.css.map */
