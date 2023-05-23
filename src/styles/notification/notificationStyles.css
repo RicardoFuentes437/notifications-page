@@ -23,17 +23,30 @@
   height: 100%;
 }
 .notification .info .private-message {
-  border: 3px solid hsl(205, 33%, 90%);
+  border: 3px solid hsl(211, 68%, 94%);
+  background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
   padding: 10px;
   width: 80%;
+  cursor: pointer;
+}
+.notification .info .private-message:hover {
+  background-color: hsl(205, 33%, 90%);
 }
 .notification .info .name {
   font-weight: 800;
   color: hsl(224, 21%, 14%);
+  cursor: pointer;
+}
+.notification .info .name:hover {
+  color: hsl(219, 85%, 26%);
 }
 .notification .info .specific {
   font-weight: 800;
+  color: hsl(219, 12%, 42%);
+  cursor: pointer;
+}
+.notification .info .specific:hover {
   color: hsl(219, 85%, 26%);
 }
 .notification .info .dot {
@@ -62,6 +75,7 @@
 .notification #picture #post-picture {
   height: 60px;
   padding: 5px 10px 0px 0px;
+  cursor: pointer;
 }
 @media (max-width: 520px) {
   .notification .user-icon #icon {

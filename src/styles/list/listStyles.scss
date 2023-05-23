@@ -24,6 +24,10 @@
 
         #read-all{
             cursor: pointer;
+
+            &:hover{
+                color: v.$Blue;
+            }
         }
     }
 

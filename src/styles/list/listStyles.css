@@ -22,6 +22,9 @@
 #main-app #bar #read-all {
   cursor: pointer;
 }
+#main-app #bar #read-all:hover {
+  color: hsl(219, 85%, 26%);
+}
 #main-app #unordered-list {
   padding: 0;
   display: flex;
