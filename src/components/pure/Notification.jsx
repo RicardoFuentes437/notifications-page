@@ -33,7 +33,7 @@ const Notification = ({icon, name, description, specific, time, message, picture
     return (
         <li className='notification' onClick={updateState} style={notif === true ? readStyle : notifStyle}>
             <div className="user-icon">
-                <img src={icon} alt="user-icon" id="icon"></img>
+                <img src={icon} alt="user-icon" className="icon"></img>
             </div>
             <div className='info'>
                 <p className='description'><span className='name'>{name}</span> {description} {(specific === undefined) ? null : <span className='specific'>{specific}</span>} { notif === false ? <span className='dot'></span> : null}</p>

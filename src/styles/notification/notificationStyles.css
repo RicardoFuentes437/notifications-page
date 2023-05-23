@@ -11,7 +11,7 @@
   height: 100%;
   width: 15%;
 }
-.notification .user-icon #icon {
+.notification .user-icon .icon {
   width: 50px;
   height: 50px;
   padding: 10px 5px 0px 5px;
@@ -78,7 +78,7 @@
   cursor: pointer;
 }
 @media (max-width: 520px) {
-  .notification .user-icon #icon {
+  .notification .user-icon .icon {
     width: 40px;
     height: 40px;
   }
